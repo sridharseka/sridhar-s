@@ -1,0 +1,10 @@
+show databases;
+create database student;
+show databases;
+use student;
+create table shree(name char(50),roll_no int,phone_number int);
+describe shree;
+insert into shree values('raji',28,1234567);
+insert into shree values('ammu',29,9876543);
+select*from shree;
+
